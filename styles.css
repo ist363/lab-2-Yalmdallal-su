@@ -1,0 +1,145 @@
+
+    .big-blue {
+        display: flex;
+    }
+
+
+.big-blue {
+    display: flex;
+}
+.small-blue {
+    height: 200px;
+    margin: 10px;
+    background-color: lightblue;
+    width: 50%;
+}
+.big-red{
+    display: flex;
+}
+.med-red{
+    height: 200px;
+    margin: 10px;
+    background-color: lightcoral;
+    width: 60%;
+}
+.small-red{
+    height: 200px;
+    margin: 10px;
+    background-color: lightcoral;
+    width: 20%;
+}
+.big-purple {
+    display: flex;
+
+}
+.small-purple{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    width: 20%;
+    
+}
+.med-purple{
+    height: 200px;
+    margin: 10px;
+    background-color: purple;
+    width: 40%;
+}
+.big-green {
+display: flex;
+justify-content: space-between;
+
+}
+.med-green {
+    height: 200px;
+    margin: 10px;
+    background-color: lightseagreen;
+    width: 40%;
+    
+    
+}
+
+
+
+.big-gold {
+    display: flex;
+
+}
+.small-gold {
+    height: 200px;
+    margin: 10px;
+    background-color: gold;
+    width: 25%;
+    
+
+}
+.small-gold3 {
+    height: 200px;
+    margin: 10px;
+    background-color: gold;
+    width: 25%;
+    margin-left: auto;
+}
+.page2{
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    
+    
+}
+#header, #footer, #content { position: absolute; left: 0; width: 100%; }
+#header{ overflow: hidden; background:red; }
+#footer { overflow: hidden; background: #444; }
+#header { top: 0; height: 100px; overflow: hidden; }
+#content { top: 100px; bottom: 100px; overflow: auto;  display: flex; }
+#footer { bottom: 0; height: 100px; }
+
+.flex1 {
+    
+    flex: 1;
+    width: 25%;
+    background:lightgray;
+   border-style: solid;
+   border-color: lightgrey;
+    margin: 10px;
+}
+.flex2 {
+    flex: 2;
+    width: 75%;
+    background: lightgrey;
+    border-style:solid;
+    border-color: lightgray;
+    margin: 10px;
+}
+.page3 {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   align-items: center;
+      justify-content: center;
+    
+
+}
+
+.flex-container {
+     width: 900px;
+    height: 100px;
+    display: flex;
+   flex-wrap: wrap;
+  
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
+    flex: 1 1 25%;
+    line-height: 150px;
+    margin: 10px; 
+    width: 10%;
+    height: 100px;
+    background:lightgreen;
+    
+    
+    
+    
+}
+
+
