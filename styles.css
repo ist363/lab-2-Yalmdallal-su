@@ -79,20 +79,24 @@ justify-content: space-between;
     background-color: gold;
     width: 25%;
     margin-left: auto;
+    
 }
+
 .page2{
     margin: 0px;
     padding: 0px;
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    
+    align-items: stretch;
     
 }
-#header, #footer, #content { position: absolute; left: 0; width: 100%; }
-#header{ overflow: hidden; background:red; }
-#footer { overflow: hidden; background: #444; }
-#header { top: 0; height: 100px; overflow: hidden; }
-#content { top: 100px; bottom: 100px; overflow: auto;  display: flex; }
-#footer { bottom: 0; height: 100px; }
+
+#header{ flex: 0 1 100px; background:red;  }
+#footer { flex: 0 1 200px; background: #444; }
+
+#content { flex: 1 1 auto;  display: flex; }
+
 
 .flex1 {
     
@@ -104,16 +108,21 @@ justify-content: space-between;
     margin: 10px;
 }
 .flex2 {
-    flex: 2;
+    flex: 4;
     width: 75%;
     background: lightgrey;
     border-style:solid;
     border-color: lightgray;
     margin: 10px;
 }
+ html{
+   
+    height: 100%;
+}
 .page3 {
    margin: 0px;
    padding: 0px;
+   height: 100%;
    display: flex;
    align-items: center;
       justify-content: center;
@@ -123,7 +132,7 @@ justify-content: space-between;
 
 .flex-container {
      width: 900px;
-    height: 100px;
+   
     display: flex;
    flex-wrap: wrap;
   
